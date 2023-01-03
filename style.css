@@ -89,6 +89,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 80px;
+    flex-wrap: wrap;
 }
 
 .info-image {
@@ -104,4 +105,27 @@ a {
     text-align: center;
     color: gray;
     font-size: 20px;
+}
+
+.quotes-box {
+    margin-top: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-name {
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: arial;
+    text-align: end;
 }
