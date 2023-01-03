@@ -39,12 +39,15 @@ a {
 
 .intro-text-title {
     color: #f9faf8;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
+    font-family: arial;
 }
 
 .intro-text {
     color: #e5e7eb;
+    font-size: 20px;
+    font-family: arial;
 }
 
 .signUp-btn-1 {
@@ -70,6 +73,8 @@ a {
 
 .intro-image-box > p {
     color: white;
+    font-size: 20px;
+    font-family: arial;
 }
 
 .additional-info {
@@ -83,6 +88,7 @@ a {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+    font-family: arial;
 }
 
 .info-body {
@@ -139,6 +145,7 @@ a {
     background-color: #3882f6;
     border-radius: 10px;
     display: flex;
+    gap: 50px;
 }
 
 .signUp-text-content {
@@ -167,4 +174,17 @@ a {
     font-size: 16px;
     margin-left: auto;
     align-self: center;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1f2937;
+    text-align: center;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-family: arial;
+    font-size: 20px;
 }
