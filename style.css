@@ -47,7 +47,7 @@ a {
     color: #e5e7eb;
 }
 
-.signUp-btn {
+.signUp-btn-1 {
     background-color: #3882f6;
     border-radius: 7px;
     border-style: none;
@@ -128,4 +128,43 @@ a {
     font-weight: 1000;
     font-family: arial;
     text-align: end;
+}
+
+.signUp-box {
+    padding: 100px 200px;
+}
+
+.signUp-box-content {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+}
+
+.signUp-text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp-text-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+}
+
+.signUp-text {
+    color: #e5e7eb;
+}
+
+.signUp-btn-2 {
+    background-color: #3882f6;
+    border-radius: 7px;
+    border: 2px solid white;
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: auto;
+    align-self: center;
 }
