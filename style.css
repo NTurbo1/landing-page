@@ -71,3 +71,37 @@ a {
 .intro-image-box > p {
     color: white;
 }
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.info-title {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.info-body {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    width: 200px;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
